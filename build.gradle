@@ -28,6 +28,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.flywaydb/flyway-core
     implementation 'org.flywaydb:flyway-core:10.12.0'
     implementation 'org.hibernate:hibernate-core:5.5.7.Final'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+    implementation 'org.springframework.boot:spring-boot-starter-security:3.2.4'
+
 }
 
 tasks.named('test') {
